@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#37B6F6"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/song1Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song2Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song3Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song3Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song4Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song4Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song5Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song5Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song6Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song6Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song7Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song7Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song8Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song8Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song9Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song9Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song10Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song10Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song11Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song11Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song12Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song12Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song13Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song13Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song14Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song14Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song15Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song15Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song16Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song16Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/song17Icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            android:text="" />
+        <Button
+            android:id="@+id/song17Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:text="Çocuk Şarksı 1" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
