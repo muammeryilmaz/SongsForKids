@@ -3,43 +3,44 @@ package com.example.songsforkids
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var linear1 : LinearLayout
-    lateinit var image1 : Button
+    lateinit var image1 : ImageButton
     lateinit var name1 : Button
     lateinit var linear2 : LinearLayout
-    lateinit var image2 : Button
+    lateinit var image2 : ImageButton
     lateinit var name2 : Button
     lateinit var linear3 : LinearLayout
-    lateinit var image3 : Button
+    lateinit var image3 : ImageButton
     lateinit var name3 : Button
     lateinit var linear4 : LinearLayout
-    lateinit var image4 : Button
+    lateinit var image4 : ImageButton
     lateinit var name4 : Button
     lateinit var linear5 : LinearLayout
-    lateinit var image5 : Button
+    lateinit var image5 : ImageButton
     lateinit var name5 : Button
     lateinit var linear6 : LinearLayout
-    lateinit var image6 : Button
+    lateinit var image6 : ImageButton
     lateinit var name6 : Button
     lateinit var linear7 : LinearLayout
-    lateinit var image7 : Button
+    lateinit var image7 : ImageButton
     lateinit var name7 : Button
     lateinit var linear8 : LinearLayout
-    lateinit var image8 : Button
+    lateinit var image8 : ImageButton
     lateinit var name8 : Button
     lateinit var linear9 : LinearLayout
-    lateinit var image9 : Button
+    lateinit var image9 : ImageButton
     lateinit var name9 : Button
     lateinit var linear10 : LinearLayout
-    lateinit var image10 : Button
+    lateinit var image10 : ImageButton
     lateinit var name10 : Button
     lateinit var linear11 : LinearLayout
-    lateinit var image11 : Button
+    lateinit var image11 : ImageButton
     lateinit var name11 : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         linear1 = findViewById<LinearLayout>(R.id.linear1)
         image1 = findViewById(R.id.song1Icon)
-        image1.setBackgroundResource(R.drawable.gezegenler_1)
         name1 = findViewById(R.id.song1Text)
         linear2 = findViewById<LinearLayout>(R.id.linear2)
         image2 = findViewById(R.id.song2Icon)
@@ -99,7 +99,6 @@ class MainActivity : AppCompatActivity() {
         name2.setOnClickListener {
             playVideo("ceviz_adam_2")
         }
-
         linear3.setOnClickListener {
             playVideo("kirmizi_balik_3")
         }
